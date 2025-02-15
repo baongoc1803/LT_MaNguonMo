@@ -1,0 +1,627 @@
+">The name of the page.</param>
+            <param name="pageHandler">The page handler to redirect to.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToPageResult"/>.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String,System.String,System.Object)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status302Found"/>) to the specified <paramref name="pageName"/>
+            using the specified <paramref name="pageHandler"/> and <paramref name="routeValues"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <param name="pageHandler">The page handler to redirect to.</param>
+            <param name="routeValues">The parameters for a route.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToPageResult"/>.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String,System.Object)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status302Found"/>) to the specified <paramref name="pageName"/>
+            using the specified <paramref name="routeValues"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <param name="routeValues">The parameters for a route.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToPageResult"/>.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String,System.String,System.String)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status302Found"/>) to the specified <paramref name="pageName"/>
+            using the specified <paramref name="fragment"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <param name="pageHandler">The page handler to redirect to.</param>
+            <param name="fragment">The fragment to add to the URL.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToPageResult"/>.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String,System.String,System.Object,System.String)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status302Found"/>) to the specified <paramref name="pageName"/>
+            using the specified <paramref name="routeValues"/> and <paramref name="fragment"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <param name="pageHandler">The page handler to redirect to.</param>
+            <param name="routeValues">The parameters for a route.</param>
+            <param name="fragment">The fragment to add to the URL.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToPageResult"/>.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status301MovedPermanently"/>) to the specified <paramref name="pageName"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToPageResult"/> with <see cref="P:Microsoft.AspNetCore.Mvc.RedirectToPageResult.Permanent"/> set.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String,System.Object)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status301MovedPermanently"/>) to the specified <paramref name="pageName"/>
+            using the specified <paramref name="routeValues"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <param name="routeValues">The parameters for a route.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToPageResult"/> with <see cref="P:Microsoft.AspNetCore.Mvc.RedirectToPageResult.Permanent"/> set.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String,System.String)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status301MovedPermanently"/>) to the specified <paramref name="pageName"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <param name="pageHandler">The page handler to redirect to.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToPageResult"/> with <see cref="P:Microsoft.AspNetCore.Mvc.RedirectToPageResult.Permanent"/> set.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String,System.String,System.Object)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status301MovedPermanently"/>) to the specified <paramref name="pageName"/>
+            using the specified <paramref name="routeValues"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <param name="pageHandler">The page handler to redirect to.</param>
+            <param name="routeValues">The parameters for a route.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToPageResult"/> with <see cref="P:Microsoft.AspNetCore.Mvc.RedirectToPageResult.Permanent"/> set.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String,System.String,System.String)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status301MovedPermanently"/>) to the specified <paramref name="pageName"/>
+            using the specified <paramref name="fragment"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <param name="pageHandler">The page handler to redirect to.</param>
+            <param name="fragment">The fragment to add to the URL.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToPageResult"/> with <see cref="P:Microsoft.AspNetCore.Mvc.RedirectToPageResult.Permanent"/> set.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String,System.Object,System.String)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status301MovedPermanently"/>) to the specified <paramref name="pageName"/>
+            using the specified <paramref name="fragment"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <param name="routeValues">The parameters for a route.</param>
+            <param name="fragment">The fragment to add to the URL.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToPageResult"/> with <see cref="P:Microsoft.AspNetCore.Mvc.RedirectToPageResult.Permanent"/> set.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String,System.String,System.Object,System.String)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status301MovedPermanently"/>) to the specified <paramref name="pageName"/>
+            using the specified <paramref name="routeValues"/> and <paramref name="fragment"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <param name="pageHandler">The page handler to redirect to.</param>
+            <param name="routeValues">The parameters for a route.</param>
+            <param name="fragment">The fragment to add to the URL.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToPageResult"/> with <see cref="P:Microsoft.AspNetCore.Mvc.RedirectToPageResult.Permanent"/> set.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePreserveMethod(System.String,System.String,System.Object,System.String)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status307TemporaryRedirect"/>) to the specified page with
+            <see cref="P:Microsoft.AspNetCore.Mvc.RedirectToRouteResult.Permanent"/> set to false and <see cref="P:Microsoft.AspNetCore.Mvc.RedirectToRouteResult.PreserveMethod"/>
+            set to true, using the specified <paramref name="pageName"/>, <paramref name="routeValues"/>, and <paramref name="fragment"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <param name="pageHandler">The page handler to redirect to.</param>
+            <param name="routeValues">The route data to use for generating the URL.</param>
+            <param name="fragment">The fragment to add to the URL.</param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToRouteResult"/> for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanentPreserveMethod(System.String,System.String,System.Object,System.String)">
+            <summary>
+            Redirects (<see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status308PermanentRedirect"/>) to the specified route with
+            <see cref="P:Microsoft.AspNetCore.Mvc.RedirectToRouteResult.Permanent"/> set to true and <see cref="P:Microsoft.AspNetCore.Mvc.RedirectToRouteResult.PreserveMethod"/>
+            set to true, using the specified <paramref name="pageName"/>, <paramref name="routeValues"/>, and <paramref name="fragment"/>.
+            </summary>
+            <param name="pageName">The name of the page.</param>
+            <param name="pageHandler">The page handler to redirect to.</param>
+            <param name="routeValues">The route data to use for generating the URL.</param>
+            <param name="fragment">The fragment to add to the URL.</param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.RedirectToRouteResult"/> for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.SignIn(System.Security.Claims.ClaimsPrincipal,System.String)">
+            <summary>
+            Creates a <see cref="T:Microsoft.AspNetCore.Mvc.SignInResult"/> with the specified authentication scheme.
+            </summary>
+            <param name="principal">The <see cref="T:System.Security.Claims.ClaimsPrincipal"/> containing the user claims.</param>
+            <param name="authenticationScheme">The authentication scheme to use for the sign-in operation.</param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.SignInResult"/> for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.SignIn(System.Security.Claims.ClaimsPrincipal,Microsoft.AspNetCore.Authentication.AuthenticationProperties,System.String)">
+            <summary>
+            Creates a <see cref="T:Microsoft.AspNetCore.Mvc.SignInResult"/> with the specified authentication scheme and
+            <paramref name="properties" />.
+            </summary>
+            <param name="principal">The <see cref="T:System.Security.Claims.ClaimsPrincipal"/> containing the user claims.</param>
+            <param name="properties"><see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationProperties"/> used to perform the sign-in operation.</param>
+            <param name="authenticationScheme">The authentication scheme to use for the sign-in operation.</param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.SignInResult"/> for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.SignOut(System.String[])">
+            <summary>
+            Creates a <see cref="T:Microsoft.AspNetCore.Mvc.SignOutResult"/> with the specified authentication schemes.
+            </summary>
+            <param name="authenticationSchemes">The authentication schemes to use for the sign-out operation.</param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.SignOutResult"/> for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.SignOut(Microsoft.AspNetCore.Authentication.AuthenticationProperties,System.String[])">
+            <summary>
+            Creates a <see cref="T:Microsoft.AspNetCore.Mvc.SignOutResult"/> with the specified authentication schemes and
+            <paramref name="properties" />.
+            </summary>
+            <param name="properties"><see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationProperties"/> used to perform the sign-out operation.</param>
+            <param name="authenticationSchemes">The authentication scheme to use for the sign-out operation.</param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.SignOutResult"/> for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.StatusCode(System.Int32)">
+            <summary>
+            Creates a <see cref="T:Microsoft.AspNetCore.Mvc.StatusCodeResult"/> object by specifying a <paramref name="statusCode"/>.
+            </summary>
+            <param name="statusCode">The status code to set on the response.</param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.StatusCodeResult"/> object for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.StatusCode(System.Int32,System.Object)">
+            <summary>
+            Creates a <see cref="T:Microsoft.AspNetCore.Mvc.ObjectResult"/> object by specifying a <paramref name="statusCode"/> and <paramref name="value"/>
+            </summary>
+            <param name="statusCode">The status code to set on the response.</param>
+            <param name="value">The value to set on the <see cref="T:Microsoft.AspNetCore.Mvc.ObjectResult"/>.</param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.ObjectResult"/> object for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Unauthorized">
+            <summary>
+            Creates an <see cref="T:Microsoft.AspNetCore.Mvc.UnauthorizedResult"/> that produces an <see cref="F:Microsoft.AspNetCore.Http.StatusCodes.Status401Unauthorized"/> response.
+            </summary>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.UnauthorizedResult"/> for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Partial(System.String)">
+            <summary>
+            Creates a <see cref="T:Microsoft.AspNetCore.Mvc.PartialViewResult"/> by specifying the name of a partial to render.
+            </summary>
+            <param name="viewName">The partial name.</param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.PartialViewResult"/> object for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Partial(System.String,System.Object)">
+            <summary>
+            Creates a <see cref="T:Microsoft.AspNetCore.Mvc.PartialViewResult"/> by specifying the name of a partial to render and the model object.
+            </summary>
+            <param name="viewName">The partial name.</param>
+            <param name="model">The model to be passed into the partial.</param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.PartialViewResult"/> object for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewComponent(System.String)">
+            <summary>
+            Creates a <see cref="T:Microsoft.AspNetCore.Mvc.ViewComponentResult"/> by specifying the name of a view component to render.
+            </summary>
+            <param name="componentName">
+            The view component name. Can be a view component
+            <see cref="P:Microsoft.AspNetCore.Mvc.ViewComponents.ViewComponentDescriptor.ShortName"/> or
+            <see cref="P:Microsoft.AspNetCore.Mvc.ViewComponents.ViewComponentDescriptor.FullName"/>.</param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.ViewComponentResult"/> object for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewComponent(System.Type)">
+            <summary>
+            Creates a <see cref="T:Microsoft.AspNetCore.Mvc.ViewComponentResult"/> by specifying the <see cref="T:System.Type"/> of a view component to
+            render.
+            </summary>
+            <param name="componentType">The view component <see cref="T:System.Type"/>.</param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.ViewComponentResult"/> object for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewComponent(System.String,System.Object)">
+            <summary>
+            Creates a <see cref="T:Microsoft.AspNetCore.Mvc.ViewComponentResult"/> by specifying the name of a view component to render.
+            </summary>
+            <param name="componentName">
+            The view component name. Can be a view component
+            <see cref="P:Microsoft.AspNetCore.Mvc.ViewComponents.ViewComponentDescriptor.ShortName"/> or
+            <see cref="P:Microsoft.AspNetCore.Mvc.ViewComponents.ViewComponentDescriptor.FullName"/>.</param>
+            <param name="arguments">
+            An <see cref="T:System.Object"/> with properties representing arguments to be passed to the invoked view component
+            method. Alternatively, an <see cref="T:System.Collections.Generic.IDictionary`2"/> instance
+            containing the invocation arguments.
+            </param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.ViewComponentResult"/> object for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewComponent(System.Type,System.Object)">
+            <summary>
+            Creates a <see cref="T:Microsoft.AspNetCore.Mvc.ViewComponentResult"/> by specifying the <see cref="T:System.Type"/> of a view component to
+            render.
+            </summary>
+            <param name="componentType">The view component <see cref="T:System.Type"/>.</param>
+            <param name="arguments">
+            An <see cref="T:System.Object"/> with properties representing arguments to be passed to the invoked view component
+            method. Alternatively, an <see cref="T:System.Collections.Generic.IDictionary`2"/> instance
+            containing the invocation arguments.
+            </param>
+            <returns>The created <see cref="T:Microsoft.AspNetCore.Mvc.ViewComponentResult"/> object for the response.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryValidateModel(System.Object)">
+            <summary>
+            Validates the specified <paramref name="model"/> instance.
+            </summary>
+            <param name="model">The model to validate.</param>
+            <returns><c>true</c> if the <see cref="P:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ModelState"/> is valid; <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryValidateModel(System.Object,System.String)">
+            <summary>
+            Validates the specified <paramref name="model"/> instance.
+            </summary>
+            <param name="model">The model to validate.</param>
+            <param name="name">The key to use when looking up information in <see cref="P:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ModelState"/>.
+            </param>
+            <returns><c>true</c> if the <see cref="P:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ModelState"/> is valid;<c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerSelected(Microsoft.AspNetCore.Mvc.Filters.PageHandlerSelectedContext)">
+            <summary>
+            Called after a handler method has been selected, but before model binding occurs.
+            </summary>
+            <param name="context">The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.PageHandlerSelectedContext"/>.</param>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerExecuting(Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext)">
+            <summary>
+            Called before the handler method executes, after model binding is complete.
+            </summary>
+            <param name="context">The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext"/>.</param>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerExecuted(Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutedContext)">
+            <summary>
+            Called after the handler method executes, before the action result executes.
+            </summary>
+            <param name="context">The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutedContext"/>.</param>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerSelectionAsync(Microsoft.AspNetCore.Mvc.Filters.PageHandlerSelectedContext)">
+            <summary>
+            Called asynchronously after the handler method has been selected, but before model binding occurs.
+            </summary>
+            <param name="context">The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.PageHandlerSelectedContext"/>.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that on completion indicates the filter has executed.</returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext,Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutionDelegate)">
+            <summary>
+            Called asynchronously before the handler method is invoked, after model binding is complete.
+            </summary>
+            <param name="context">The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext"/>.</param>
+            <param name="next">
+            The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutionDelegate"/>. Invoked to execute the next page filter or the handler method itself.
+            </param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that on completion indicates the filter has executed.</returns>
+        </member>
+        <member name="T:Microsoft.AspNetCore.Mvc.RazorPages.PageResult">
+            <summary>
+            An <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult"/> that renders a Razor Page.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.PageResult.ContentType">
+            <summary>
+            Gets or sets the Content-Type header for the response.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.PageResult.Model">
+            <summary>
+            Gets the page model.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.PageResult.Page">
+            <summary>
+            Gets or sets the <see cref="T:Microsoft.AspNetCore.Mvc.RazorPages.PageBase"/> to be executed.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.PageResult.ViewData">
+            <summary>
+            Gets or sets the <see cref="T:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary"/> for the page to be executed.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.PageResult.StatusCode">
+            <summary>
+            Gets or sets the HTTP status code.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.PageResult.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions">
+            <summary>
+            Provides configuration for Razor Pages.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions.Conventions">
+            <summary>
+            Gets a collection of <see cref="T:Microsoft.AspNetCore.Mvc.ApplicationModels.IPageConvention"/> instances that are applied during
+            route and page model construction.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions.RootDirectory">
+            <summary>
+            Application relative path used as the root of discovery for Razor Page files.
+            Defaults to the <c>/Pages</c> directory under application root.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.PropertyOfTypeCannotBeNull">
+            <summary>The '{0}' property of '{1}' must not be null.</summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.Resources.FormatPropertyOfTypeCannotBeNull(System.Object,System.Object)">
+            <summary>The '{0}' property of '{1}' must not be null.</summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.ActivatedInstance_MustBeAnInstanceOf">
+            <summary>Page created by '{0}' must be an instance of '{1}'.</summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.Resources.FormatActivatedInstance_MustBeAnInstanceOf(System.Object,System.Object)">
+            <summary>Page created by '{0}' must be an instance of '{1}'.</summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.PageViewResult_ContextIsInvalid">
+            <summary>The context used to execute '{0}' must be an instance of '{1}'. Returning a '{2}' from a controller is a not supported.</summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.Resources.FormatPageViewResult_ContextIsInvalid(System.Object,System.Object,System.Object)">
+            <summary>The context used to execute '{0}' must be an instance of '{1}'. Returning a '{2}' from a controller is a not supported.</summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.ArgumentCannotBeNullOrEmpty">
+            <summary>Value cannot be null or empty.</summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.UnsupportedHandlerMethodType">
+            <summary>Unsupported handler method return type '{0}'.</summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.Resources.FormatUnsupportedHandlerMethodType(System.Object)">
+            <summary>Unsupported handler method return type '{0}'.</summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.AmbiguousHandler">
+            <summary>Multiple handlers matched. The following handlers matched route data and had all constraints satisfied:{0}{0}{1}</summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.Resources.FormatAmbiguousHandler(System.Object,System.Object)">
+            <summary>Multiple handlers matched. The following handlers matched route data and had all constraints satisfied:{0}{0}{1}</summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.PathMustBeRootRelativePath">
+            <summary>Path must be a root relative path that starts with a forward slash '/'.</summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.AsyncPageFilter_InvalidShortCircuit">
+            <summary>If an {0} provides a result value by setting the {1} property of {2} to a non-null value, then it cannot call the next filter by invoking {3}.</summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.Resources.FormatAsyncPageFilter_InvalidShortCircuit(System.Object,System.Object,System.Object,System.Object)">
+            <summary>If an {0} provides a result value by setting the {1} property of {2} to a non-null value, then it cannot call the next filter by invoking {3}.</summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.InvalidPageType_WrongBase">
+            <summary>The type '{0}' is not a valid page. A page must inherit from '{1}'.</summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.Resources.FormatInvalidPageType_WrongBase(System.Object,System.Object)">
+            <summary>The type '{0}' is not a valid page. A page must inherit from '{1}'.</summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.InvalidPageType_NoModelProperty">
+            <summary>The type '{0}' is not a valid page. A page must define a public, non-static '{1}' property.</summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.Resources.FormatInvalidPageType_NoModelProperty(System.Object,System.Object)">
+            <summary>The type '{0}' is not a valid page. A page must define a public, non-static '{1}' property.</summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.InvalidValidPageName">
+            <summary>'{0}' is not a valid page name. A page name is path relative to the Razor Pages root directory that starts with a leading forward slash ('/') and does not contain the file extension e.g "/Users/Edit".</summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.Resources.FormatInvalidValidPageName(System.Object)">
+            <summary>'{0}' is not a valid page name. A page name is path relative to the Razor Pages root directory that starts with a leading forward slash ('/') and does not contain the file extension e.g "/Users/Edit".</summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.InvalidActionDescriptorModelType">
+            <summary>The model type for '{0}' is of type '{1}' which is not assignable to its declared model type '{2}'.</summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.Resources.FormatInvalidActionDescriptorModelType(System.Object,System.Object,System.Object)">
+            <summary>The model type for '{0}' is of type '{1}' which is not assignable to its declared model type '{2}'.</summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.RazorPages.Resources.StateShouldBeNullForRouteValueTransformers">
+            <summary>Transformer '{0}' was retrieved from dependency injection with a state value. State can only be specified when the dynamic route is mapped using MapDynamicPageRoute's state argument together with transient lifetime transformer. Ensure that '{0}' doesn't se ...</summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.RazorPages.Resources.FormatStateShouldBeNullForRouteValueTransformers(System.Object)">
+            <summary>Transformer '{0}' was retrieved from dependency injection with a state value. State can only be specified when the dynamic route is mapped using MapDynamicPageRoute's state argument together with transient lifetime transformer. Ensure that '{0}' doesn't se ...</summary>
+        </member>
+        <member name="T:Microsoft.AspNetCore.Mvc.Diagnostics.BeforeHandlerMethodEventData">
+            <summary>
+            An <see cref="T:Microsoft.AspNetCore.Mvc.Diagnostics.EventData"/> that occurs before a handler method is called.
+            </summary>
+        </member>
+        <member name="F:Microsoft.AspNetCore.Mvc.Diagnostics.BeforeHandlerMethodEventData.EventName">
+            <summary>
+            Name of the event.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.Diagnostics.BeforeHandlerMethodEventData.#ctor(Microsoft.AspNetCore.Mvc.ActionContext,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object},Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.HandlerMethodDescriptor,System.Object)">
+            <summary>
+            Initializes a new instance of <see cref="T:Microsoft.AspNetCore.Mvc.Diagnostics.BeforeHandlerMethodEventData"/>.
+            </summary>
+            <param name="actionContext">The action context.</param>
+            <param name="arguments">The arguments to the method.</param>
+            <param name="handlerMethodDescriptor">The method descriptor.</param>
+            <param name="instance">The instance.</param>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforeHandlerMethodEventData.ActionContext">
+            <summary>
+            The <see cref="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforeHandlerMethodEventData.ActionContext"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforeHandlerMethodEventData.Arguments">
+            <summary>
+            The arguments to the method.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforeHandlerMethodEventData.HandlerMethodDescriptor">
+            <summary>
+            The <see cref="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforeHandlerMethodEventData.HandlerMethodDescriptor"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforeHandlerMethodEventData.Instance">
+            <summary>
+            The instance.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforeHandlerMethodEventData.Count">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforeHandlerMethodEventData.Item(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData">
+            <summary>
+            An <see cref="T:Microsoft.AspNetCore.Mvc.Diagnostics.EventData"/> that occurs after a handler method is called.
+            </summary>
+        </member>
+        <member name="F:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData.EventName">
+            <summary>
+            Name of the event.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData.#ctor(Microsoft.AspNetCore.Mvc.ActionContext,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object},Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.HandlerMethodDescriptor,System.Object,Microsoft.AspNetCore.Mvc.IActionResult)">
+            <summary>
+            Initializes a new instance of <see cref="T:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData"/>.
+            </summary>
+            <param name="actionContext">The action context.</param>
+            <param name="arguments">The arguments to the method.</param>
+            <param name="handlerMethodDescriptor">The method descriptor.</param>
+            <param name="instance">The instance.</param>
+            <param name="result">The result of the handler method</param>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData.ActionContext">
+            <summary>
+            The <see cref="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData.ActionContext"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData.Arguments">
+            <summary>
+            The arguments to the method.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData.HandlerMethodDescriptor">
+            <summary>
+            The <see cref="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData.HandlerMethodDescriptor"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData.Instance">
+            <summary>
+            The instance.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData.Result">
+            <summary>
+            The result of the method.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData.Count">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData.Item(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutionEventData">
+            <summary>
+            An <see cref="T:Microsoft.AspNetCore.Mvc.Diagnostics.EventData"/> that occurs before page handler execution.
+            </summary>
+        </member>
+        <member name="F:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutionEventData.EventName">
+            <summary>
+            Name of the event.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutionEventData.#ctor(Microsoft.AspNetCore.Mvc.RazorPages.CompiledPageActionDescriptor,Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext,Microsoft.AspNetCore.Mvc.Filters.IAsyncPageFilter)">
+            <summary>
+            Initializes a new instance of <see cref="T:Microsoft.AspNetCore.Mvc.Diagnostics.AfterHandlerMethodEventData"/>.
+            </summary>
+            <param name="actionDescriptor">The <see cref="T:Microsoft.AspNetCore.Mvc.RazorPages.CompiledPageActionDescriptor"/>.</param>
+            <param name="handlerExecutionContext">The <see cref="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutionEventData.HandlerExecutionContext"/>.</param>
+            <param name="filter">The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.IAsyncPageFilter"/>.</param>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutionEventData.ActionDescriptor">
+            <summary>
+            The <see cref="T:Microsoft.AspNetCore.Mvc.RazorPages.CompiledPageActionDescriptor"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutionEventData.HandlerExecutionContext">
+            <summary>
+            The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutionEventData.Filter">
+            <summary>
+            The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.IAsyncPageFilter"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutionEventData.Count">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutionEventData.Item(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.AspNetCore.Mvc.Diagnostics.AfterPageFilterOnPageHandlerExecutionEventData">
+            <summary>
+            An <see cref="T:Microsoft.AspNetCore.Mvc.Diagnostics.EventData"/> that occurs after page handler execution.
+            </summary>
+        </member>
+        <member name="F:Microsoft.AspNetCore.Mvc.Diagnostics.AfterPageFilterOnPageHandlerExecutionEventData.EventName">
+            <summary>
+            Name of the event.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.Diagnostics.AfterPageFilterOnPageHandlerExecutionEventData.#ctor(Microsoft.AspNetCore.Mvc.RazorPages.CompiledPageActionDescriptor,Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutedContext,Microsoft.AspNetCore.Mvc.Filters.IAsyncPageFilter)">
+            <summary>
+            Initializes a new instance of <see cref="T:Microsoft.AspNetCore.Mvc.Diagnostics.AfterPageFilterOnPageHandlerExecutionEventData"/>.
+            </summary>
+            <param name="actionDescriptor">The <see cref="T:Microsoft.AspNetCore.Mvc.RazorPages.CompiledPageActionDescriptor"/>.</param>
+            <param name="handlerExecutedContext">The <see cref="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterPageFilterOnPageHandlerExecutionEventData.HandlerExecutedContext"/>.</param>
+            <param name="filter">The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.IAsyncPageFilter"/>.</param>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterPageFilterOnPageHandlerExecutionEventData.ActionDescriptor">
+            <summary>
+            The <see cref="T:Microsoft.AspNetCore.Mvc.RazorPages.CompiledPageActionDescriptor"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterPageFilterOnPageHandlerExecutionEventData.HandlerExecutedContext">
+            <summary>
+            The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutedContext"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterPageFilterOnPageHandlerExecutionEventData.Filter">
+            <summary>
+            The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.IAsyncPageFilter"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterPageFilterOnPageHandlerExecutionEventData.Count">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.AfterPageFilterOnPageHandlerExecutionEventData.Item(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutingEventData">
+            <summary>
+            An <see cref="T:Microsoft.AspNetCore.Mvc.Diagnostics.EventData"/> that occurs before page handler executing.
+            </summary>
+        </member>
+        <member name="F:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutingEventData.EventName">
+            <summary>
+            Name of the event.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutingEventData.#ctor(Microsoft.AspNetCore.Mvc.RazorPages.CompiledPageActionDescriptor,Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext,Microsoft.AspNetCore.Mvc.Filters.IPageFilter)">
+            <summary>
+            Initializes a new instance of <see cref="T:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutingEventData"/>.
+            </summary>
+            <param name="actionDescriptor">The <see cref="T:Microsoft.AspNetCore.Mvc.RazorPages.CompiledPageActionDescriptor"/>.</param>
+            <param name="handlerExecutingContext">The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext"/>.</param>
+            <param name="filter">The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.IPageFilter"/>.</param>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutingEventData.ActionDescriptor">
+            <summary>
+            The <see cref="T:Microsoft.AspNetCore.Mvc.RazorPages.CompiledPageActionDescriptor"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutingEventData.HandlerExecutingContext">
+            <summary>
+            The <see cref="T:Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Mvc.Diagnostics.BeforePageFilterOnPageHandlerExecutingEventData.Filter">
+            <summary>
+         

@@ -1,0 +1,4 @@
+Database:	4489946_quanlycuahang
+Host:	fdb1032.awardspace.net
+Username:	4489946_quanlycuahang
+Password:	Bn18032003@
